@@ -14,6 +14,12 @@ body{
     bottom: 0;
 }
 
+#logo{
+    position: relative;
+    width: 50%;
+    margin:10%;
+}
+
 /******************CLASSES*******************/
 
 .attribution {
@@ -28,4 +34,67 @@ body{
 }
 .attribution a {
      color: hsl(228, 45%, 44%); 
+}
+
+.leftBox{
+    position: absolute;
+    left: 200px;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    z-index: 2;
+    background-color:  hsl(228, 56%, 26%);
+    width: 20%;
+    height: 30%;
+    border-radius: 20px 80px 20px 20px;
+}
+
+.rightBox{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 500px;
+    margin-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width:50%;
+    height:30%;
+    border-radius: 20px;
+    background-color:  hsl(228, 56%, 26%);
+    z-index: 2;    
+}
+
+.iconsRow{
+    float: left;
+    position: absolute;
+    width:75%;
+    height: 25%;    
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;    
+
+}
+
+.iconFrame{
+    position: relative;
+    background-color: hsl(229, 57%, 11%);
+    width:23%;
+    height: 100%;
+    border-radius: 10px;
+    margin-left: 15px;
+    /* top:50px;
+    right:72%; */
+    display: inline-block;
+    float: left;
+}
+
+.icon{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin:auto;
 }
