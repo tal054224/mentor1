@@ -6,6 +6,12 @@ body{
     padding: 0;
 }
 
+p{
+    color:hsl(243, 100%, 93%);
+    font-family: 'Raleway', sans-serif;
+    padding:40px;
+}
+
 /******************IDS*******************/
 
 #background{
@@ -18,6 +24,27 @@ body{
     position: relative;
     width: 50%;
     margin:10%;
+}
+
+#bar{
+    position: relative;
+    width: 81.5%;
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%),  hsl(335, 100%, 65%));
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    z-index: 3;
+    border-radius: 50px;
+}
+
+#whiteDot{
+    position: relative;
+    background-color: white;
+    border-radius: 50%;
+    left: 422.99px;;
+    height: 100%;
+    width: 5%;
+    z-index: 4;
 }
 
 /******************CLASSES*******************/
@@ -62,7 +89,7 @@ body{
     height:30%;
     border-radius: 20px;
     background-color:  hsl(228, 56%, 26%);
-    z-index: 2;    
+    z-index: 2;
 }
 
 .iconsRow{
@@ -87,7 +114,6 @@ body{
     /* top:50px;
     right:72%; */
     display: inline-block;
-    float: left;
 }
 
 .icon{
@@ -97,4 +123,17 @@ body{
     right: 0;
     left: 0;
     margin:auto;
+}
+
+.progressBarFrame{
+    position: relative;
+    background-color: hsl(229, 7%, 55%);
+    height: 12%;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    bottom:30px;
+    border-radius: 50px;
+    z-index: 2;
+    border: solid hsl(229, 7%, 55%) 5px;
 }
